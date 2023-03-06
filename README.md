@@ -7,6 +7,7 @@
   <li>Axios</li>
   <li>NodeJs</li>
   <li>MySQL</li>
+  <li>Express</li>
   <li>Sequelize</li>
   <li>MD5</li>
   <li>JWT</li>
