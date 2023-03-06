@@ -1,0 +1,47 @@
+.container-orders {
+  display: flex;
+}
+
+.customer-orders {
+  border: 1px solid black;
+  border-radius: 15px;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.customer-orders:hover {
+  box-shadow: 0 0 10px rgb(235, 188, 0);
+}
+
+.order-detail {
+  margin: 10px;
+}
+
+.btn-status {
+  cursor: pointer;
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+}
+
+table {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 0 0 10px;
+}
+
+th {
+  padding: 10px;
+}
+
+tr {
+  text-align: center;
+}
+
+.total-order {
+  font-size: 1.4em;
+  margin: 10px;
+}

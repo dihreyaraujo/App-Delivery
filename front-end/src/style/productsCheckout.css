@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-pedidos {
+  display: flex;
+}
+
+.container-pedido {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-around;
+  margin: 30px 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.rm-button {
+  background-color: rgb(235, 188, 0);
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1em;
+  height: 40px;
+  margin: 10px 0;
+  padding: 5px;
+  text-decoration: none;
+  transition: 0.4s;
+  width: 100px;
+}
+
+.rm-button:hover {
+  background-color: #545454;
+  color: rgb(237, 231, 231);
+}
+
+.total-price-pedido {
+  font-size: 1.6em;
+  margin: 10px;
+}
+
+.container-form-pedido {
+  margin: 10px;
+}
+
+.input-pedido {
+  border: 1px solid black;
+  font-size: 0.9em;
+  height: 40px;
+  margin: 15px 0;
+  padding: 5px;
+}
+
+.finish-button {
+  background-color: rgb(235, 188, 0);
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1em;
+  height: 60px;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.4s;
+  width: 120px;
+}
+
+.finish-button:hover {
+  background-color: #545454;
+  color: rgb(237, 231, 231);
+}

@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-products:first-child img {
+  width: 10px;
+}
+
+.button-total {
+  background-color: rgb(235, 188, 0);
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1.4em;
+  height: 50px;
+  margin: 10px 0;
+  padding: 5px;
+  text-decoration: none;
+  transition: 0.4s;
+  width: 120px;
+}
+
+.button-total:hover {
+  background-color: #545454;
+  color: rgb(237, 231, 231);
+}
+
+.container-total {
+  left: 1520px;
+  position: absolute;
+  top: 40px;
+}
